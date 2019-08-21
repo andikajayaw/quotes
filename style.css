@@ -16,3 +16,13 @@ body {
     background-color: #fff;
     flex: 0 0 80%;
 }
+
+#quoteBtn {
+    border: none;
+    color: #fff;
+    background: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
