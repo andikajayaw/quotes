@@ -24,7 +24,12 @@ const quoteBtn = document.querySelector('#quoteBtn');
 const quoteAuthor = document.querySelector('#queryAuthor');
 const quote = document.querySelector('#quote');
 
+quoteBtn.addEventListener('click', displayQuote);
 
+function displayQuote() {
+    let number = Math.floor(Math.random() * quotes.length);
+    console.log(number);
+}
 
 
 // const simpleQuotes = [{
