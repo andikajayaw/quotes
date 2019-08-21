@@ -8,3 +8,11 @@ body {
     font-family: 'calibri', sans-serif;
     font-weight: 400;
 }
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
