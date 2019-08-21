@@ -20,12 +20,19 @@ const quotes = [{
     }
 ];
 
-const simpleQuotes = [{
-        name: 'author number 1',
-        quote: 'quote number 1'
-    },
-    {
-        name: 'author number 2',
-        quote: 'quote number 2'
-    }
-]
+const quoteBtn = document.querySelector('#quoteBtn');
+const quoteAuthor = document.querySelector('#queryAuthor');
+const quote = document.querySelector('#quote');
+
+
+
+
+// const simpleQuotes = [{
+//         name: 'author number 1',
+//         quote: 'quote number 1'
+//     },
+//     {
+//         name: 'author number 2',
+//         quote: 'quote number 2'
+//     }
+// ]
