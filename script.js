@@ -21,7 +21,7 @@ const quotes = [{
 ]
 
 const quoteBtn = document.querySelector('#quoteBtn');
-const quoteAuthor = document.querySelector('#queryAuthor');
+const quoteAuthor = document.querySelector('#quoteAuthor');
 const quote = document.querySelector('#quote');
 
 quoteBtn.addEventListener('click', displayQuote);
