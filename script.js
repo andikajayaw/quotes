@@ -18,7 +18,7 @@ const quotes = [{
         name: 'Leo Tolstoy',
         quotes: 'If you want to be happy, be.'
     }
-];
+]
 
 const quoteBtn = document.querySelector('#quoteBtn');
 const quoteAuthor = document.querySelector('#queryAuthor');
@@ -28,7 +28,8 @@ quoteBtn.addEventListener('click', displayQuote);
 
 function displayQuote() {
     let number = Math.floor(Math.random() * quotes.length);
-    console.log(number);
+    quoteAuthor.innerHTML = quotes[number].name;
+    quote.innerHTML = quotes[number].quote;
 }
 
 
